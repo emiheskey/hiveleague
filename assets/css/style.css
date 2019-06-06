@@ -10350,3 +10350,63 @@ ul.spb-social2{
 	        transform:rotate(0);
 }
 .login-html p { font-weight: bold; font-size: 16px;}
+
+/* Results */
+.Searchresults {
+    width: 100%;
+    padding: 20px 0px;
+}
+.Searchresults .result-card {
+    width: 100%;
+    border: 1px solid #f9f9f9;
+    min-height: 200px;
+}
+.Searchresults .col-md-4 {
+    overflow: hidden;
+}
+.Searchresults .result-card .result-img {
+    width: 60%;
+    height: 120px;
+    overflow: hidden;
+    display: block;
+    float: left;
+}
+.Searchresults .result-card .result-img img { height: 120px;}
+.Searchresults .result-card .row { padding: 0; margin: 0;}
+.Searchresults .result-card span.divi {
+    padding: 5px 10px;
+    border-radius: 50%;
+    background: #ff3c36;
+    color: #fff;
+    margin: 0px 10px;
+}
+.Searchresults .result-card i {
+    margin: 0px 7px;
+    color: #ff3c36;
+}
+.Searchresults .result-card .btn, .Searchresults .result-card .label {
+    width: 90px !important;
+    display: block;
+    padding: 5px 7px;
+    height: 30px;
+    font-size: 14px;
+    font-weight: 200;
+}
+.Searchresults .result-card .result-price {
+    padding: 2px 10px;
+    width: 40%;
+    float: left;
+    background: #394993;
+    height: 120px;
+    line-height: 10px;
+}
+.Searchresults .result-card .result-price p, .Searchresults .result-card .result-price h3 {
+    padding: 0; margin: 0;
+}
+.Searchresults .result-card .result-price h3 {
+    color: yellow;
+    font-size: 3em;
+}
+.Searchresults .result-card .result-price p {
+    font-size: 1.1em; font-weight: bold; color: #fff;
+}
