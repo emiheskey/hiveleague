@@ -2240,6 +2240,10 @@ blockquote {
 }
 .header-8 .hive-navigation ul li a {
     text-align: left;
+    margin: 0 10px;
+}
+.header-8 .hive-navigation ul li a.active {
+    border-bottom: 2px solid #fff;
 }
 .header-8 .logo {
     float: none;
@@ -2285,7 +2289,7 @@ blockquote {
     display: block;
     font-size: 16px;
     font-weight: bold;
-    padding: 15px 16px;
+    padding: 15px 10px 10px 10px;
     text-decoration: none;
     text-transform: uppercase;
 }
