@@ -10410,3 +10410,62 @@ ul.spb-social2{
 .Searchresults .result-card .result-price p {
     font-size: 1.1em; font-weight: bold; color: #fff;
 }
+
+/* Dashboard */
+.side-navigation{
+    padding: 10px;
+    border: 1px solid #f9f9f9;
+    background: #f9f9f9;
+}
+.side-navigation ul li a { 
+    text-transform: uppercase;
+}
+.side-navigation ul li {
+    background: #dddde8;
+    width: 100%;
+    margin: 0 0 4px;
+    height: auto;
+}
+.side-navigation ul li a.active {
+    background: #394993;
+    color: #fff;
+}
+.side-navigation .profile {
+    margin-bottom: 20px;
+}
+.side-navigation .profile img {
+    float: left;
+    padding: 5px;
+    border: 1px solid #ddd;
+    background: #fff;
+    margin: 0px 10px 0px 0px;
+    width: 100px;
+}
+.side-navigation .profile hr {
+    margin: 10px 0px;
+}
+.side-navigation .profile p { margin: 0; font-weight: bold;}
+.dashCard {
+    width: 100%;
+    padding: 15px;
+    min-height: 100px;
+    border: 1px solid #999;
+    margin: 20px 0px;
+    text-transform: uppercase;
+    -webkit-box-shadow: 0px 0px 23px -14px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 23px -14px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 23px -14px rgba(0,0,0,0.75);
+    background: url(../images/pattern.png) #394993;
+    background-size: cover; 
+}
+.dashCard h3 {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+.dashCard h2 {
+    font-size: 2em;
+    font-weight: 200;
+    color: #fff;
+}
+.btn-no-radius { border-radius: 0;}
