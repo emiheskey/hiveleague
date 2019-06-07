@@ -10473,3 +10473,29 @@ ul.spb-social2{
     color: #fff;
 }
 .btn-no-radius { border-radius: 0;}
+
+.settings-card {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.settings-card .head {
+    background: #394993;
+    padding: 5px 10px;
+    width: 100%;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    color: #fff;
+}
+.settings-card .set-content {
+    padding: 15px 10px;
+    width: 100%;
+    background: rgb(238, 235, 255);
+    overflow: hidden;
+}
+.settings-card .set-content .form-group, .settings-card .set-content .input-group {
+    width: 80%;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.settings-card .set-content input, .settings-card .set-content label { font-size: 16px;}
+.settings-card .set-content label { font-weight: bold; color: #394993;}
