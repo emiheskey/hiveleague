@@ -998,9 +998,9 @@ header{
 .hive-large-blog ul li:hover .hive-time-zoon time {
     color: #ffffff;
 }
-.hive-blog-list ul li:hover img {
-    opacity: 0.6;
-}
+/*.hive-blog-list ul li:hover img {
+    opacity: 0.9;
+}*/
 .hive-time-zoon time {
     background-color: #2f2f2f;
     color: #ffffff;
@@ -1029,16 +1029,16 @@ header{
 .hive-blog-info {
     background-color: #f4f4f4;
     float: left;
-    padding: 20px 20px 0;
+    padding: 20px 20px 15px;
     position: relative;
     text-align: center;
     width: 100%;
 }
 .hive-blog-info::before {
     background-color: #f4f4f4;
-    bottom: -14px;
+    bottom: -10px;
     content: "";
-    height: 14px;
+    height: 10px;
     left: 0;
     margin: auto;
     position: absolute;
@@ -10183,6 +10183,22 @@ ul.spb-social2{
     background: url(../images/bg-football-para.jpg) no-repeat;
     background-size: cover;
     padding-bottom: 30px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.blog-bg {
+    background: url(../images/blog-bg.jpg) no-repeat;
+    background-size: cover;
+    padding-bottom: 30px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.blog-bg .blog-content, .blog-content {
+    padding: 10px 20px 30px 20px;
+    background: #fff;
+    overflow: hidden;
 }
 .btn-radius0 { border-radius: 0;}
 .text-white { color: #fff;}
@@ -10454,7 +10470,7 @@ ul.spb-social2{
     padding: 15px;
     min-height: 100px;
     border: 1px solid #999;
-    margin: 20px 0px;
+    margin: 10px 0px 20px 0px;
     text-transform: uppercase;
     -webkit-box-shadow: 0px 0px 23px -14px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 0px 23px -14px rgba(0,0,0,0.75);

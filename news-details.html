@@ -41,8 +41,9 @@
 				</div>
                 <div class="col-md-6">
                   <ul class="hive-userinfo">
-                    <li><a href="#"><i class="fa fa-user"></i> Welcome, Emmanuel</a></li>
-                    <li><a href="index.html"><i class="fa fa-sign-in"></i> Logout</a></li>
+                    <li><a href="#"><i class="fa fa-user"></i> My Account</a></li>
+                    <li><a href="login.html"><i class="fa fa-sign-in"></i> Login</a></li>
+                    <li><a href="signup.html"><i class="fa fa-user-plus"></i> Register</a></li>
                   </ul>
                 </div>
               </div>
@@ -64,7 +65,7 @@
             <li><a href="about.html">About us</a></li>
             <li><a href="search.html">Find a League</a></li>
             <li><a href="#">FAQ</a></li>
-            <li><a href="#">News</a></li>
+            <li><a href="news.html" class="active">News</a></li>
             <li><a href="contact.html">Contact us</a></li>
 					</ul>
 				</div>
@@ -76,12 +77,12 @@
         <div class="container">
           <div class="row">
             <div class="col-md-6">
-              <h1>Dashboard</h1>
+              <h1>News</h1>
             </div>
             <div class="col-md-6">
               <ul class="hive-breadcrumb">
                 <li><a href="#">Home</a></li>
-                <li><a href="#">Dashboard</a></li>
+                <li><a href="#">News</a></li>
               </ul>
             </div>
           </div>
@@ -91,111 +92,157 @@
 
 
       <!--// Main Content //-->
-      <div class="hive-content news-bg">
+      <div class="hive-content blog-bg">
 
-          <!--// Page Content //-->
-          <section class="hive-pagesection margin-bottom-40">
-            <div class="container-fluid">
-              <div class="row">
-                <div class="col-md-3">
-                    <div class="side-navigation">
-                        <div class="profile">
-                            <img src="assets/images/testimonial2.jpg">
-                            <p>
-                               Welcome, <br>Emmanuel Enemakwu
-                            </p>
-                            <hr>
-                            <a href="#" class="btn btn-default btn-xs">Edit your profile</a>
-                        </div>
-                        <div class="clearfix"></div>
-                        <ul class="nav nav-pills nav-stacked">
-                          <li><a href="dashboard.html">Dashboard</a></li>
-                          <li><a href="#">Team Profile</a></li>
-                          <li><a href="#">Transfer Market</a></li>
-                          <li><a href="#">Pending Transfer</a></li>
-                          <li><a href="#">Edit player card</a></li>
-                          <li><a href="settings.html" class="active">Account setting</a></li>                         
-                          <li><a href="#">Logout</a></li>
-                        </ul>
-                    </div>
-                </div>
-                  <div class="col-md-9">
-                    <div class="hive-editor">
-                        <div class="settings-card">
-                            <div class="head">Email settings</div>
-                            <div class="set-content">
-                                <div class="col-md-12">
-                                    <p style="color: red;">Hive Leagues will not pass on your personal details to third parties. </p>
-                                </div>
-                                <form>
-                                    <div class="col-md-6">
-                                        <p>Do you want to receive a weekly email detailing where your team appears in the new league table? </p>
-                                        <select class="form-control">
-                                            <option>Yes</option>
-                                            <option>No</option>
-                                        </select>
-                                        
-                                    </div>
-                                    <div class="col-md-6">
-                                            <p>Do you want to receive general emails about football, special offers, or Hive Leagues related information?  </p>
-                                            <select class="form-control">
-                                                <option>Yes</option>
-                                                <option>No</option>
-                                            </select>
-                                            
-                                        </div>
-                                    <div class="clearfix"></div>
-                                    <div class="col-md-12" style="margin-top: 20px;">
-                                            <p><a href="#" class="btn btn-lg btn-success btn-no-radius">Update Settings</a></p>
-                                    </div>
-                                </form>
-                            </div>
+        <!--// Page Content //-->
+        <section class="hive-pagesection">
+          <div class="container">
+            <div class="row">
 
+                <div class="hive-pagecontent col-md-9">
+
+                  <div class="hive-blog-list hive-fullwidth-blog">
+                    <ul class="row">
+                      <li class="col-md-12">
+                        <div class="hive-time-zoon">
+                          <time datetime="2008-02-14 20:00">07 <span>may</span></time>
+                          <h5>Hive Leagues rovolutionalised local football growth index</h5>
                         </div>
-                        <!-- Form -->
-                        <div class="settings-card">
-                                <div class="head">Change Password</div>
-                                <div class="set-content">
-                                            <form class="form-inline">
-                                                <div class="col-md-12">
-                                                <div class="form-group">
-                                                    <label>Current Password</label>
-                                                    <div class="input-group">
-                                                    <input type="text" class="form-control" id="current">
-                                                    <div class="input-group-addon"><i class="fa fa-lock"></i></div>
-                                                    </div>
-                                                </div>
-                                                <div class="form-group">
-                                                    <label>New Password</label>
-                                                    <div class="input-group">
-                                                    <input type="text" class="form-control" id="newPassword">
-                                                    <div class="input-group-addon"><i class="fa fa-lock"></i></div>
-                                                    </div>
-                                                </div>
-                                                <div class="form-group">
-                                                    <label>Confirm new Password</label>
-                                                    <div class="input-group">
-                                                    <input type="text" class="form-control" id="ConfirmnewPassword">
-                                                    <div class="input-group-addon"><i class="fa fa-lock"></i></div>
-                                                    </div>
-                                                </div>
-                                          </div>
-                                          <div class="col-md-12" style="margin-top: 10px;">
-                                                <p><a href="#" class="btn btn-lg btn-success btn-no-radius">Update Password</a></p>
-                                        </div>
-                                        </form>
-                                    
-                                </div>
+                        <figure><img src="assets/images/news-post.jpg" alt=""></figure>
+                      </li>
+                      
+                    </ul>
+                  </div>
+                  <div class="blog-content">
+                  <div class="hive-editor">
+                    <p>There are just 147 days to go before the start of the Hive Leagues powered  World Cup in Crete.</p>
+
+<p>32 nations will be battling it out for five days in October to see who can be crowned Kings of the World, many including players who play in our leagues throughout the world.</p>
+
+<p>Will it be Hive Leagues players from Germany, maybe players from Slovakia, Poland, Pakistan or all the other corners where we find our brand?</p>
+
+<p>That’s before we even get to the thousands of players in England, Wales and Ireland.</p>
+
+<p>That’s for the future, but as the excitement builds, we will have much more from thorough out the world, but right now, we are delighted to reveal the World Cup Ball!</p>
+
+<p>The International Socca Federation is delighted  this afternoon to announce a fantastic ball sponsorship deal with the world class football brand Umbro. All of the Match Balls for our Socca World Cup in Crete this October will be the Umbro Neo Professional ball. This FIFA Quality Pro match ball is a 14 panel hand stitched Ball of the highest quality ensuring all players will have a world class ball at their feet during our world class event.</p>
+
+<p>Sponsorship Director Martin Cassidy admitted he was thrilled to have such a brand on board, adding: “A world class event like this needs a world class ball – and we have one.</p>
+
+                  </div>
+
+                  <div class="hive-related-blog">
+                    <div class="hive-section-title"> <h2>Related Post</h2> </div>
+                    <ul class="row">
+                      <li class="col-md-4">
+                        <a href="#" class="related-thumb th-bordercolor"><img src="assets/images/blog-img.jpg" alt=""></a>
+                        <div class="related-text">
+                          <h6><a href="#">Sed ut perspiciatis unde omnis</a></h6>
                         </div>
-                      </div>
-                    </div>
-  
+                      </li>
+                      <li class="col-md-4">
+                        <a href="#" class="related-thumb th-bordercolor"><img src="assets/images/blog-img2.jpg" alt=""></a>
+                        <div class="related-text">
+                          <h6><a href="#">Sed ut perspiciatis unde omnis</a></h6>
+                        </div>
+                      </li>
+                      <li class="col-md-4">
+                        <a href="#" class="related-thumb th-bordercolor"><img src="assets/images/blog-img3.jpg" alt=""></a>
+                        <div class="related-text">
+                          <h6><a href="#">Sed ut perspiciatis unde omnis</a></h6>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="hive-postsection">
+                    <h6 class="hive-prev"><a href="#" class="thcolorhover"><i class="fa fa-long-arrow-left"></i> Pervious Post</a></h6>
+                    <h6 class="hive-next"><a href="#" class="thcolorhover">Next Post <i class="fa fa-long-arrow-right"></i></a></h6>
+                  </div>
+                  <div class="clearfix"></div>
+                  <p><a href="news.html" class="btn btn-primary btn-no-radius btn-lg">BACK TO BLOG</a></p>
+                  </div>
                 </div>
+
+                <aside class="hive-pagesidebar col-md-3">
+                  
+                 <div class="widget hive-recent-blog blog-content">
+                    <div class="hive-widget-title"> <h2>Recent Blog Post</h2> </div>
+                    <ul>
+                      <li>
+                        <figure><a class="hive-recent-thumb" href="#"><img src="assets/images/recentblog-widget1.jpg" alt=""></a>
+                          <figcaption>
+                            <h6><a href="#">Never Give Up On Yourself</a></h6>
+                            <ul>
+                              <li>05 May 2015</li>
+                            </ul>
+                          </figcaption>
+                        </figure>
+                      </li>
+                      <li>
+                        <figure><a class="hive-recent-thumb" href="#"><img src="assets/images/recentblog-widget2.jpg" alt=""></a>
+                          <figcaption>
+                            <h6><a href="#">Hopefull Players Always</a></h6>
+                            <ul>
+                              <li>05 May 2015</li>
+                            </ul>
+                          </figcaption>
+                        </figure>
+                      </li>
+                      <li>
+                        <figure><a class="hive-recent-thumb" href="#"><img src="assets/images/recentblog-widget3.jpg" alt=""></a>
+                          <figcaption>
+                            <h6><a href="#">Standalone Quality Shoes</a></h6>
+                            <ul>
+                              <li>05 May 2015</li>
+                            </ul>
+                          </figcaption>
+                        </figure>
+                      </li>
+                      <li>
+                        <figure><a class="hive-recent-thumb" href="#"><img src="assets/images/recentblog-widget1.jpg" alt=""></a>
+                          <figcaption>
+                            <h6><a href="#">Never Give Up On Yourself</a></h6>
+                            <ul>
+                              <li>05 May 2015</li>
+                            </ul>
+                          </figcaption>
+                        </figure>
+                      </li>
+                      <li>
+                        <figure><a class="hive-recent-thumb" href="#"><img src="assets/images/recentblog-widget2.jpg" alt=""></a>
+                          <figcaption>
+                            <h6><a href="#">Hopefull Players Always</a></h6>
+                            <ul>
+                              <li>05 May 2015</li>
+                            </ul>
+                          </figcaption>
+                        </figure>
+                      </li>
+                      <li>
+                        <figure><a class="hive-recent-thumb" href="#"><img src="assets/images/recentblog-widget3.jpg" alt=""></a>
+                          <figcaption>
+                            <h6><a href="#">Standalone Quality Shoes</a></h6>
+                            <ul>
+                              <li>05 May 2015</li>
+                            </ul>
+                          </figcaption>
+                        </figure>
+                      </li>
+                    </ul>
+                    <div class="clearfix"></div>
+                    
+                  </div>
+
+
+                </aside>
+
               </div>
-          </section>
-          <!--// Page Content //-->
-          
-        </div>
+            </div>
+        </section>
+        <!--// Page Content //-->
+
+      </div>
         <!--// Main Content //-->
 
       <!--// NewsLatter
@@ -215,7 +262,7 @@
           </div>
         </div>
       </div>
-      NewsLatter //-->
+      // NewsLatter //-->
       <footer id="footer1" class="hive-parallax hive-dark-overlay hive-bg-pattern">
           <!--Footer Medium-->
           <div class="footer-medium">
