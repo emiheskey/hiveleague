@@ -484,6 +484,7 @@ header{
     float: left;
     margin-bottom: 30px;
     width: 100%;
+    background: #fff;
 }
 .hive-widget-title {
     float: left;
@@ -493,7 +494,7 @@ header{
 .hive-section-title h2, .hive-widget-title h2 {
     border-bottom: 1px solid;
     display: inline-block;
-    padding: 0 0 7px;
+    padding: 0 0 7px 10px;
     text-transform: uppercase;
 }
 .widget-recent-news ul li:hover time {
