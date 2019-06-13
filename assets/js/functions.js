@@ -527,3 +527,4 @@ if($('.slider-nav').length){
 			}
 		  }
 		}
+		
