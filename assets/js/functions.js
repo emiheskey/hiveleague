@@ -531,3 +531,20 @@ if($('.slider-nav').length){
 			$('#list').click(function(event){event.preventDefault();$('#products .item').addClass('list-group-item');});
 			$('#grid').click(function(event){event.preventDefault();$('#products .item').removeClass('list-group-item');$('#products .item').addClass('grid-group-item');});
 		});
+		function readURL(input) {
+			if (input.files && input.files[0]) {
+				var reader = new FileReader();
+				reader.onload = function(e) {
+					$("#imagePreview").css(
+						"background-image",
+						"url(" + e.target.result + ")"
+					);
+					$("#imagePreview").hide();
+					$("#imagePreview").fadeIn(650);
+				};
+				reader.readAsDataURL(input.files[0]);
+			}
+		}
+		$("#imageUpload").change(function() {
+			readURL(this);
+		});
