@@ -10700,3 +10700,59 @@ form.league-form .btn-proceed {
     background-repeat: no-repeat;
     background-position: center;
   }
+
+  /* Team Info */
+  .team_info {
+      width: 100%;
+      margin-bottom: 20px;
+  }
+  .team_info .teamposition {
+      background: #394993;
+      padding: 2%;
+      color: #fff;
+      min-height: 250px;
+      text-align: center;
+      text-transform: uppercase;
+  }
+  .team_info .teamposition i {
+      font-size: 5em;
+  }
+  .team_info .teamposition h2 { color: #fff;}
+  .team_info .teamposition .badge { background-color: red; padding: 7px 7px; margin: 0px 3px; font-size: 16px;}
+
+  .team_info .next-game-top {
+    background: #0099e5;
+    padding: 2%;
+    min-height: 125px;
+  }
+  .team_info .next-game-top h2 { color: #fff; text-transform: uppercase; font-size: 1.2em; margin-bottom: 10px;}
+  .team_info .next-game-top .game-badge {
+      background: #394993;
+      padding: 11px 5px;
+      text-align: center;
+      color: #fff;
+      text-transform: uppercase;
+      margin: 0 5px;
+  }
+  .team_info .next-game-top .col-md-3 {
+      width: 23.5%;
+      height: 50px;
+  }
+  .team_info .next-game-top .col-md-3 .btn {
+      padding: 2px 10px;
+      margin: 0;
+  }
+  .team_info .next-game-bottom {
+    background: #fff url(../images/next-bg.png) center no-repeat;
+    padding: 1%;
+    min-height: 125px;
+  }
+  .team_info .next-game-bottom img {
+      width: 15%;
+      margin: 0 20px;
+  }
+  .team_info .next-game-bottom h4 {
+      padding-top: 7%;
+      text-transform: uppercase;
+      color: #666;
+  }
