@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 459 459" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g id="drive-ms-powerpoint">
+        <path d="M408,0L51,0C22.95,0 0,22.95 0,51L0,408C0,436.05 22.95,459 51,459L408,459C436.05,459 459,436.05 459,408L459,51C459,22.95 436.05,0 408,0ZM173.4,265.2L173.4,357L127.5,357L127.5,102L237.15,102C275.4,102 293.25,109.65 308.549,124.95C326.4,140.25 331.499,160.65 331.499,183.6C331.499,209.1 323.849,229.5 308.549,242.25C293.249,255 275.4,262.65 237.15,262.65L173.4,262.65L173.4,265.2Z" style="fill:rgb(57,73,147);fill-rule:nonzero;"/>
+        <path d="M173.4,229.5L173.4,137.7L232.05,137.7C249.901,137.7 262.651,142.8 270.3,153C277.95,163.2 283.05,170.85 283.05,183.6C283.05,198.9 277.95,206.55 270.3,216.75C262.651,224.4 252.45,229.5 234.6,229.5L173.4,229.5Z" style="fill:rgb(57,73,147);fill-rule:nonzero;"/>
+    </g>
+</svg>

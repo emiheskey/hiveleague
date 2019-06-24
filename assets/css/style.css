@@ -10617,6 +10617,216 @@ ul.spb-social2{
 }
 .league-title h2 { color: #394993;}
 
+.league-info {
+    background: #394993;
+    padding: 1%;
+}
+.league-info h2 {
+    font-size: 2em;
+}
+.league-info h2, .league-info h4 {
+    color: #fff;
+    text-transform: uppercase;
+}
+.league-info h4 { font-size: 1em;}
+.league-info-price {
+    background: #fff;
+    padding: 1%;
+}
+.league-info-price h2 {
+    text-transform: uppercase;
+    font-size: 2em;
+}
+.league-info-price .venue-price {
+    display: inline-block;
+    vertical-align: middle;
+    width: auto;
+    height: auto;
+    margin-left: 15px;
+    color: #ff3c36;
+    text-transform: uppercase;
+    text-align: center;
+}
+.league-info-price .venue-price .price-strike {
+    text-decoration: line-through;
+}
+.league-info-price .venue-price .price-offer {
+    color: #ff3c36;
+}
+.league-info-price .venue-price span { color: #000; font-size: 1em;}
+.league-info-price .venue-price h2 { margin:  0; padding: 0; line-height: 30px;}
+
+.league-info-price .venue-price .btn{
+    background: #ff3c36;
+    color: #fff;
+    border-radius: 0;
+    padding: 10px 15px;
+    font-size: 1.2em;
+}
+
+.league-select { 
+    margin: 2% 0; 
+    min-height: 70px; 
+    background: #fff;
+}
+.league-select .title {
+    display: block;
+    background: #394993;
+    padding: 2%;
+    color: #fff;
+    text-transform: uppercase;
+    width: 30%;
+}
+.league-select .select-option {
+    display: block;
+    padding: 1.7%;
+}
+/* More league info */
+.next-info {
+    background: #394993;
+    padding: 2%;
+    height: 500px;
+    overflow: hidden;
+    text-align: center;
+    color: #fff;
+}
+.next-info h2 {
+    font-size: 1.5em;
+    text-transform: uppercase;
+    color: #fff;
+}
+.next-info .days-left {
+    border: 15px solid #fff;
+    padding: 5% 5%;
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.next-info .days-left h1, .next-info .days-left h4 {
+    text-transform: uppercase; color: #fff;
+}
+.next-info .days-left h1 { font-size: 3em;}
+.next-info .btn{
+    background: #ff3c36;
+    color: #fff;
+    border-radius: 0;
+    padding: 10px 15px;
+    font-size: .8em;
+    font-weight: bold;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+.stadium-info {
+    height: 500px;
+    overflow: hidden;
+}
+.stadium-info .title {
+    padding: 2%;
+    background: #394993;
+    min-height: 100px;
+}
+.stadium-info .title h2, .stadium-info .title h4 { color: #fff; margin: 0; padding: 0;}
+
+.stadium-info-content {
+    background: #fff;
+}
+.stadium-info-content .col-md-6, .stadium-info-content .col-xs-12 {
+    padding: 0;
+}
+.stadium-info-content .row-c {
+    padding: 2% 5%;
+    min-height: 50px;
+    background: #ebebeb;
+    overflow: hidden;
+}
+.stadium-info-content .row-b {
+    padding: 2% 5%;
+    background: #f9f9f9;
+    min-height: 50px;
+    overflow: hidden;
+}
+.stadium-info-content .row-c img, .stadium-info-content .row-b img {
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-right: 20px;
+}
+.stadium-info-content .row-text {
+    margin-left: 10px;
+}
+.stadium-info-content .row-text h2 {
+    font-size: 2em;
+    margin: 0;
+    padding: 0;
+    color: #394993;
+    line-height: 40px;
+}
+.stadium-info-content .row-text p {
+    text-transform: uppercase;
+    font-size: .8em;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    line-height: 20px;
+}
+.stadium-info-content .pitch-info {
+    background: #fff;
+    height: 100%;
+    padding: 70px 10px;
+}
+.stadium-info-content .join-button {
+    padding: 10px;
+    background: #111;
+}
+.stadium-info-content .join-button .btn {
+    background: #ff3c36;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 auto;
+    border-radius: 0;
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.stadium-info-content .join-button .btn:hover {
+    background: #394993;
+}
+.visit-page {
+    height: 500px;
+    overflow: hidden;
+}
+.visit-page .title {
+    background: #394993;
+    padding: 5%;
+    width: 100%;
+}
+.visit-page .title h2{
+    color: #fff;
+    text-transform: uppercase;
+}
+.visit-page .title i {
+    color: #fff;
+    font-size: 3em;
+    margin-right: 10px;
+    float: left;
+}
+.visit-page .social-content {
+    background: #fff;
+    padding: 2px 2px 120px 2px;
+}
+
+.row-col {
+    padding: 0;
+}
+.row-col .col-md-3 {
+    padding: 0;
+}
+.row-col .col-md-8, .row-col .col-md-4 {
+    padding-left: 0;
+}
+
 form.league-form {
     width: 100%;
 }
@@ -10756,3 +10966,5 @@ form.league-form .btn-proceed {
       text-transform: uppercase;
       color: #666;
   }
+
+  
