@@ -979,6 +979,10 @@ ul.hive-userinfo { margin: 0; padding: 1%;}
     padding: 3px 15px;
     text-align: center;
 }
+.hive-table tbody tr td.pt {
+    background-color: #666;
+    border-bottom: 1px solid #444;
+}
 .hive-blog-list ul li {
     list-style: outside none none;
 }
@@ -10825,6 +10829,18 @@ ul.spb-social2{
 }
 .row-col .col-md-8, .row-col .col-md-4 {
     padding-left: 0;
+}
+/* Marquee */
+.marquees {
+
+    white-space: nowrap;
+    overflow: hidden;
+}
+.marquees span {
+
+    padding-left: 100%;
+    display: inline-block;
+    animation: marquees 15s linear infinite;
 }
 
 form.league-form {
