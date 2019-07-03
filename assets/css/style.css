@@ -10832,7 +10832,6 @@ ul.spb-social2{
 }
 /* Marquee */
 .sticky-leagues {
-    display: block;
     background: #fff;
     position: fixed;
     bottom: 0;
@@ -10849,26 +10848,31 @@ ul.spb-social2{
     overflow: hidden;
     position: relative;
    }
-   .marq div ul { list-style: none; padding: 0 0 5px 0; margin: 0;}
-   .marq div ul li { display: inline-block; margin: 0px 20px;}
+   .marq div ul { list-style: none; padding: 0 0 5px 0; margin: 0; display: block; width: auto;}
+   .marq div ul li { display: inline; margin: 0px 20px;}
    .marq div {
     font-size: 1em;
     position: absolute;
-    width: 100%;
+    width: 200%;
     height: 100%;
     margin: 0;
-    line-height: 0px;
     text-align: center;
     /* Starting position */
     -moz-transform:translateX(100%);
     -webkit-transform:translateX(100%);	
     transform:translateX(100%);
     /* Apply animation to this element */	
-    -moz-animation: marq 25s linear infinite;
-    -webkit-animation: marq 25s linear infinite;
-    animation: marq 25s linear infinite;
+    -moz-animation: marq 40s linear infinite;
+    -webkit-animation: marq 40s linear infinite;
+    animation: marq 40s linear infinite;
    }
-   .marq div ul li span {  color: #394993; letter-spacing: 2px; margin: 0 10px;}
+   .marq div ul li span { color: #394993; letter-spacing: 2px; margin: 0 10px;}
+   .marq div span { margin: 10px 20px; padding-top: 30px;}
+   .marq div span b {
+     color: #394993; 
+     letter-spacing: 2px; 
+     margin: 0 10px;}
+   }
    /* Move it (define the animation) */
    @-moz-keyframes marq {
     0%   { -moz-transform: translateX(100%); }
@@ -10890,6 +10894,61 @@ ul.spb-social2{
     transform: translateX(-100%); 
     }
    }
+/* Ticker */
+@-webkit-keyframes ticker {
+    0% {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+      visibility: visible;
+    }
+    100% {
+      -webkit-transform: translate3d(-100%, 0, 0);
+      transform: translate3d(-100%, 0, 0);
+    }
+  }
+  @keyframes ticker {
+    0% {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+      visibility: visible;
+    }
+    100% {
+      -webkit-transform: translate3d(-100%, 0, 0);
+      transform: translate3d(-100%, 0, 0);
+    }
+  }
+  .ticker-wrap {
+    position: fixed;
+    bottom: 5px;
+    width: 100%;
+    overflow: hidden;
+    padding-left: 100%;
+    box-sizing: content-box;
+  }
+  .ticker-wrap .ticker {
+    display: inline-block;
+    height: 4rem;
+    line-height: 4rem;
+    white-space: nowrap;
+    padding-right: 100%;
+    box-sizing: content-box;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-name: ticker;
+    animation-name: ticker;
+    -webkit-animation-duration: 50s;
+    animation-duration: 50s;
+  }
+  .ticker-wrap .ticker__item {
+    display: inline-block;
+    padding: 0 2rem;
+    font-size: 1.6rem;
+  }
+  .ticker-wrap .ticker__item span {
+    color: #394993; letter-spacing: 2px; margin: 0 10px; font-weight: bold;
+  }
 
 form.league-form {
     width: 100%;
