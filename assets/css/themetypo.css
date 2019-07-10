@@ -311,7 +311,7 @@ audio, video {
 	position:fixed;
 	left:0;
 	top:0;
-	z-index:10000;
+	z-index:100;
 }
 .hive-wrapper .hive-header-absolute.kf_sticky  .hive-topbar{
 	display:none;
