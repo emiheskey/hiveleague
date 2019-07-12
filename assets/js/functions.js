@@ -565,5 +565,12 @@ if($('.slider-nav').length){
 		buttons.forEach(button => button.addEventListener('click', open));
 		overlay.addEventListener('click', close);
 		
-		
+		(function(){
+			var burger = document.querySelector('.burger-container'),
+				header = document.querySelector('.header');
+			
+			burger.onclick = function() {
+				header.classList.toggle('menu-opened');
+			}
+		}());
 		

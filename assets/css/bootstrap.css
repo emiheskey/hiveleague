@@ -6567,12 +6567,12 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
-.navbar-nav > li > a,.navbar-nav > li > a:before,.navbar-nav > li > a:after,.kode-modren-btn,.kode-simplebtn:before,
-.kode-pro-info,.owl-nav div,.kode-team-network li a,.kode-team-list figure figcaption h2 a,.medium-info time,
-.service-info,.kode-time-zoon time,.kode-time-zoon h5 a,.kode-blog-list ul li img,.kode-time-zoon:before,
-.children li a,.children li a:before,.kode-modrenbtn,.pagination a,.widget-tabnav li a:before,
-.kode-recent-blog > ul > li img,.widget-gallery ul li a img,.kode-related-blog ul li img,
-.kode-gallery ul li figure figcaption,.shop-btn a,.fixer-pagination a,.fixer-btn a,
+.navbar-nav > li > a,.navbar-nav > li > a:before,.navbar-nav > li > a:after,.hive-modren-btn,.hive-simplebtn:before,
+.hive-pro-info,.owl-nav div,.hive-team-network li a,.hive-team-list figure figcaption h2 a,.medium-info time,
+.service-info,.hive-time-zoon time,.hive-time-zoon h5 a,.hive-blog-list ul li img,.hive-time-zoon:before,
+.children li a,.children li a:before,.hive-modrenbtn,.pagination a,.widget-tabnav li a:before,
+.hive-recent-blog > ul > li img,.widget-gallery ul li a img,.hive-related-blog ul li img,
+.hive-gallery ul li figure figcaption,.shop-btn a,.fixer-pagination a,.fixer-btn a,
 .action-btn::before, .frame-btn::before, .kf-btn-hover::before {
   -webkit-transition: all 0.4s ease-in-out;
      -moz-transition: all 0.4s ease-in-out;
@@ -6580,7 +6580,7 @@ button.close {
        -o-transition: all 0.4s ease-in-out;
           transition: all 0.4s ease-in-out;
 }
-.flex-active-slide .kode-caption img {
+.flex-active-slide .hive-caption img {
     -webkit-animation-duration: 1s;
     animation-duration: 1s;
     -webkit-animation-fill-mode: both;
@@ -6649,8 +6649,8 @@ button.close {
         transform: translateX(0)
     }
 }
-.flex-active-slide .kode-ft-caption p,
-.flex-active-slide .kode-caption p {
+.flex-active-slide .hive-ft-caption p,
+.flex-active-slide .hive-caption p {
     -webkit-animation-name: slideInLeft;
     animation-name: slideInLeft;
     -webkit-animation-duration: 1s;
@@ -6679,8 +6679,8 @@ button.close {
         opacity: 1
     }
 }
-.flex-active-slide .kode-ft-caption a,
-.flex-active-slide .kode-caption a {
+.flex-active-slide .hive-ft-caption a,
+.flex-active-slide .hive-caption a {
     -webkit-animation-name: zoomIn;
     animation-name: zoomIn;
     -webkit-animation-duration: 1s;
@@ -6692,7 +6692,7 @@ button.close {
 
 
 
-.flex-active-slide .kode-ft-caption h6 {
+.flex-active-slide .hive-ft-caption h6 {
     -webkit-animation-name: slideInright;
     animation-name: slideInright;
     -webkit-animation-duration: 1s;
@@ -6700,7 +6700,7 @@ button.close {
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
 }
-.flex-active-slide .kode-ft-caption h4 {
+.flex-active-slide .hive-ft-caption h4 {
     -webkit-animation-name: slideInright;
     animation-name: slideInright;
     -webkit-animation-duration: 1s;
@@ -6710,7 +6710,7 @@ button.close {
     -webkit-animation-delay: 0.5s; /* Chrome, Safari, Opera */
     animation-delay: 0.5s;
 }
-.flex-active-slide .kode-ft-caption h5{
+.flex-active-slide .hive-ft-caption h5{
     -webkit-animation-name: slideInright;
     animation-name: slideInright;
     -webkit-animation-duration: 1s;
