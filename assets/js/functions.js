@@ -75,6 +75,7 @@ jQuery(document).ready(function(){
 			} else {
 				$('.hive-header-absolute').removeClass('kf_sticky'); 
 			}
+				
 		};
 		stickyNav();
 		// and run it again every time you scroll
@@ -82,7 +83,6 @@ jQuery(document).ready(function(){
 			stickyNav();
 		});
 	}
-	
 
 	/* ---------------------------------------------------------------------- */
 	/*	Click to Top 
@@ -573,4 +573,7 @@ if($('.slider-nav').length){
 				header.classList.toggle('menu-opened');
 			}
 		}());
-		
+/* nxene */
+
+
+

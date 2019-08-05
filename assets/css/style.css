@@ -74,6 +74,7 @@ ul.hive-userinfo { margin: 0; padding: 1%;}
     width: 100%;
     z-index: 999;
 }
+
 .kd-headbar {
     background-color: #333333;
     border-bottom: 3px solid;
@@ -95,6 +96,9 @@ ul.hive-userinfo { margin: 0; padding: 1%;}
 }
 .kf_sticky .hive-search {
     margin: 21px -14px 0 0;
+}
+.kf_sticky .hive-navigation {
+    display: none;
 }
 .hive-rightsection {
     float: right;
@@ -2254,6 +2258,9 @@ blockquote {
 }
 .kf_sticky .header-8 {
     padding: 10px 0;
+}
+.kf_sticky .header-8 .logo img {
+    width: 70px;
 }
 .header-8 .hive-navigation ul li a {
     text-align: left;
@@ -11472,3 +11479,112 @@ form.league-form .btn-proceed {
       border-bottom: 1px solid #333;
       padding: 20px 0px;
   }
+
+  /* Toggle Menu */
+  .header-8 #ham-menu, .header-8 #menu {
+      float: right;
+      visibility: hidden;
+      margin-right: 10%;
+  }
+  .kf_sticky #ham-menu {
+      visibility: visible;
+  }
+
+ /* Important styles */
+#toggle {
+    display: block;
+    width: 28px;
+    height: 30px;
+    margin: 18px 0 0;
+  }
+  
+  #toggle span:after,
+  #toggle span:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: -9px;
+  }
+  #toggle span:after{
+    top: 9px;
+  }
+  #toggle span {
+    position: relative;
+    display: block;
+  }
+  
+  #toggle span,
+  #toggle span:after,
+  #toggle span:before {
+    width: 100%;
+    height: 5px;
+    background-color: #fff;
+    transition: all 0.3s;
+    backface-visibility: hidden;
+    border-radius: 2px; 
+  }
+  
+  /* on activation */
+  #toggle.on span {
+    background-color: transparent;
+  }
+  #toggle.on span:before {
+    transform: rotate(45deg) translate(5px, 5px);
+  }
+  #toggle.on span:after {
+    transform: rotate(-45deg) translate(7px, -8px);
+  }
+  #toggle.on + #menu {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  /* menu appearance*/
+  #menu {
+    position: absolute;
+    color: #fff;
+    width: 250px;
+    padding: 10px;
+    margin: auto;
+    font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
+    text-align: left;
+    border-radius: 0px;
+    background: white;
+    box-shadow: 0 1px 8px rgba(0,0,0,0.05);
+    /* just for this demo */
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .4s;
+    
+  }
+  #menu:after {
+    position: absolute;
+    top: -12px;
+    left: 2px;
+    content: "";
+    display: block;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 20px solid white;
+  }
+  #menu ul,  #menu li,  #menu li a {
+    list-style: none;
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+  #menu li a {
+    padding: 5px 15px;
+    color: #888;
+    text-decoration: none;
+    transition: all .2s;
+    text-transform: uppercase;
+    background: #f3f3f3;
+    margin-bottom: 3px;
+  }
+  #menu li a:hover,
+  #menu li a:focus {
+    background: #394993;
+    color: #fff;
+  }
+  
