@@ -925,6 +925,14 @@ ul.hive-userinfo { margin: 0; padding: 1%;}
     border-bottom: 3px solid;
     box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.3);
 }
+h3.table-heading {
+    background: #740101;
+    padding: 5px 10px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 2em;
+}
 .hive-table tr:hover {
     background: #666 none repeat scroll 0 0 !important;
 }
