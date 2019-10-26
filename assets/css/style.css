@@ -2638,7 +2638,8 @@ blockquote {
 .footer-medium {
     float: left;
     width: 100%;
-    background: #1a1a1a
+    background: #1a1a1a;
+    font-size: 13px;
 }
 #footer1 .footer-medium h3 {
     color: #fff;
@@ -2647,7 +2648,7 @@ blockquote {
     text-transform: uppercase;
 }
 #footer1 .footer-medium {
-    padding: 50px 0;
+    padding: 30px 0;
 }
 .about-widget p {
     margin: 17px 0 0;
