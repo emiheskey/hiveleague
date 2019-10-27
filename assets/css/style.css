@@ -11701,3 +11701,24 @@ form.league-form .btn-proceed {
     background-color: #6c7ae0;
     color: #fff;
   }
+  /* Sponsors & Partners */
+  .hive-sponsor {
+      width: 100%;
+      padding: 2%;
+      border-top: 1px solid #d9d9d9;
+    background: rgba(242,245,247,1);
+    background: -moz-linear-gradient(top, rgba(242,245,247,1) 0%, rgba(246,246,246,1) 47%, rgba(224,229,255,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(242,245,247,1)), color-stop(47%, rgba(246,246,246,1)), color-stop(100%, rgba(224,229,255,1)));
+    background: -webkit-linear-gradient(top, rgba(242,245,247,1) 0%, rgba(246,246,246,1) 47%, rgba(224,229,255,1) 100%);
+    background: -o-linear-gradient(top, rgba(242,245,247,1) 0%, rgba(246,246,246,1) 47%, rgba(224,229,255,1) 100%);
+    background: -ms-linear-gradient(top, rgba(242,245,247,1) 0%, rgba(246,246,246,1) 47%, rgba(224,229,255,1) 100%);
+    background: linear-gradient(to bottom, rgba(242,245,247,1) 0%, rgba(246,246,246,1) 47%, rgba(224,229,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f5f7', endColorstr='#e0e5ff', GradientType=0 );
+
+  }
+  .hive-sponsor h3 {
+    text-transform: uppercase;
+    font-size: 2em;
+    padding-top: 10px;
+    color: #394993;
+  }
