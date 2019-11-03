@@ -417,12 +417,12 @@ ul.hive-userinfo { margin: 0; padding: 1%;}
     box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.3) inset;
     color: #333333;
     display: inline-block;
-    font-size: 20px;
-    padding: 6px 35px;
+    padding: 6px 30px;
     text-transform: uppercase;
 }
 .hive-modren-btn:hover {
-    opacity: 0.7;
+    opacity: 0.9;
+    color: inherit;
 }
 .hive-content .hive-pagesection.hive-parallax {
     background-attachment: fixed !important;
@@ -1464,6 +1464,8 @@ blockquote {
     margin-top: 20px;
     color: #ffffff;
     text-transform: uppercase;
+    position: relative;
+    z-index: 1;
 }
 .hive-breadcrumb {
     float: right;
@@ -2421,7 +2423,7 @@ blockquote {
 .pick-event .heading {
     float: left;
     text-align: left;
-    width: 20%;
+    width: 100%;
 }
 .pick-event .heading h4 {
     color: #fff;
@@ -2440,7 +2442,7 @@ blockquote {
 }
 .pick-event .form {
     float: left;
-    width: 80%;
+    width: 100%;
 }
 .pick-event .form .quick-search-title {
     font: 27px/33px var(--font_primary);
@@ -2461,13 +2463,17 @@ blockquote {
     float: left;
     padding: 0 10px;
     position: relative;
-    width: 75%;
+    width: 100%;
 }
 .pick-event .form .cover-btn {
     float: left;
-    padding: 0 10px;
+    padding: 5px 10px;
     position: relative;
-    width: 25%;
+    width: 100%;
+    text-align: center;
+}
+.pick-event .form .cover-btn:hover {
+    color: white;
 }
 .pick-event .form .cover .dropdown-menu li {
     list-style: outside none none;
@@ -3059,6 +3065,7 @@ section {
 .kd-counter ul li {
     list-style: outside none none;
     text-align: center;
+    margin-bottom: 15px;
 }
 .kd-counter ul li i {
     color: #ffffff;
@@ -10863,6 +10870,9 @@ ul.spb-social2{
 .row-col .col-md-8, .row-col .col-md-4 {
     padding-left: 0;
 }
+.m-b2 {
+    margin-bottom: 20px;
+}
 /* Marquee */
 .sticky-leagues {
     background: #fff;
@@ -10874,6 +10884,7 @@ ul.spb-social2{
     margin: 0;
     z-index: 50;
     box-shadow: 0 -11px 0 0 rgba(0,0,0,.27);
+    height: auto;
 }
 .sticky-leagues div h3 { text-transform: uppercase}
 .marq {
@@ -11706,7 +11717,7 @@ form.league-form .btn-proceed {
       width: 100%;
       padding: 2%;
       border-top: 1px solid #d9d9d9;
-    background: rgba(242,245,247,1);
+    background:  url(../images/sponsor-bg.png) no-repeat right;
     background: -moz-linear-gradient(top, rgba(242,245,247,1) 0%, rgba(246,246,246,1) 47%, rgba(224,229,255,1) 100%);
     background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(242,245,247,1)), color-stop(47%, rgba(246,246,246,1)), color-stop(100%, rgba(224,229,255,1)));
     background: -webkit-linear-gradient(top, rgba(242,245,247,1) 0%, rgba(246,246,246,1) 47%, rgba(224,229,255,1) 100%);

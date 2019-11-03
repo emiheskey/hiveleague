@@ -34,7 +34,7 @@
       <header id="mainheader" class="hive-header-absolute">
 
         <!--// TopBar //-->
-          <div class="hive-topbar">
+          <div class="hive-topbar hidden-xs">
 		  <div class="container">
               <div class="row">
                 <div class="col-md-6 hive_bg_white">
@@ -88,7 +88,7 @@
                 </div><!-- /.container-fluid -->
                 </nav>
             <!-- Scroll Menu -->
-            <div id="ham-menu">
+            <div id="ham-menu" class="hidden-xs">
             <a href="#menu" id="toggle"><span></span></a>
     
             <div id="menu">
@@ -167,22 +167,29 @@
         
 		<section class="pick-event padding-30-topbottom margin-top-minus-40">
         	<div class="container">
-            <div class="col-xs-12">
+            <div class="row">
+            <div class="col-md-3">
             	<div class="heading">
-                    <h4>Find your</h4>
-                    <h2>Nearest league</h2>
+                    <h4>Find your <span>Nearest league</span></h2>
                 </div>
             </div>
+            <div class="col-md-9">
                 <div class="form">
+                  <div class="col-md-8 col-xs-12">
                 	<div class="cover">
                     	<input type="text" placeholder="Search by Location or by City">
                         <i class="fa fa-search"></i>
                     </div>
+                  </div>
+                  <div class="col-md-4 col-xs-12">
                     <div class="cover-btn">
-                    	<a class="hive-modren-btn thbg-colortwo">Find League</a>
+                    	<a class="hive-modren-btn thbg-colortwo btn-block">Find League</a>
                     </div>
+                  </div>
                 </div>
             </div>
+            </div>
+        	</div>
         </section>
         <div class="clearfix"></div>
       <!-- Card -->
@@ -294,8 +301,12 @@
 				</div>	
                 <div class="col-md-6">
                   <img src="assets/images/97393.jpg">
-
+                  <div class="hidden-md hidden-sm">
+                      <span class="clearfix"></span>
+                      <P>&nbsp;</P>
+                    </div>
                 </div>
+                
                 <div class="col-md-6">
                     <img src="assets/images/97.jpg"> 
                   </div>
@@ -305,6 +316,9 @@
     
                     </div>
                     <div class="col-md-6">
+                      <div class="hidden-md hidden-sm">
+                        <span class="clearfix"></span>
+                      </div>
                         <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" style="margin-top: 20px;">
                             <div class="carousel-inner">
                             <div class="item active">
@@ -641,13 +655,13 @@
       <div class="hive-sponsor">
         <div class="container">
           <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-4 col-xs-12">
               <h3>Sponsors & Partners:</h3>
             </div>
-            <div class="col-md-2">
+            <div class="col-md-2 col-xs-12 m-b2 text-center">
               <img class="img-responsive" src="assets/images/umbro.png">
             </div>
-            <div class="col-md-2">
+            <div class="col-md-2 col-xs-12 text-center">
                 <img class="img-responsive" src="assets/images/logo-soccer.png">
               </div>
           </div>
@@ -728,8 +742,8 @@
     <!-- Footer Marquee-->
     <div class="sticky-leagues">
       <div class="container-fluid">
-        <div class="col-md-2"><h3>This Week's results</h3></div>
-        <div class="col-md-10">
+        <div class="col-md-2 col-sm-12 col-xs-12"><h3>This Week's results</h3></div>
+        <div class="col-md-10 col-xs-12">
     <!--    <div class="marq">
           <div>
             <span>Chelsea <b>1:2</b>Arsenal</span>
