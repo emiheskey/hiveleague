@@ -993,6 +993,85 @@ h3.table-heading {
     background-color: #666;
     border-bottom: 1px solid #444;
 }
+
+/* Hive 2 Table */
+.hive-table3 {
+    border-bottom: 3px solid;
+    box-shadow: 0 10px 10px 0 rgba(255, 255, 255, 0.872);
+}
+h3.table-heading {
+    background: #00085b;
+    padding: 5px 10px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 2em;
+}
+.hive-table3 tr:hover {
+    background: #ccd8fa none repeat scroll 0 0 !important;
+}
+.hive-table3 thead th {
+    border: medium none;
+    color: #111111;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 4px 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.hive-table3 thead th:first-child {
+    text-align: left;
+    text-transform: uppercase;
+}
+.hive-table3 tbody tr {
+    background-color: #f9f9f9;
+}
+.hive-table3 tbody tr:nth-child(2n) {
+    background-color: #ffffff;
+}
+.hive-table3 tbody tr:nth-child(2n) td {
+    border: medium none;
+}
+.hive-table3 tbody tr td {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: -moz-use-text-color #ffffff -moz-use-text-color -moz-use-text-color;
+    border-image: none;
+    border-style: none solid none none;
+    border-width: medium 1px medium medium;
+    color: #292929;
+    padding: 7px 25px;
+    vertical-align: middle;
+}
+.hive-table3 span {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: normal;
+    text-align: center;
+    width: 33%;
+}
+.hive-table-v3.hive-table3 tbody tr:nth-child(2n) {
+    background-color: #ffffff;
+}
+.hive-table-v3.hive-table3 tbody tr td {
+    border: medium none;
+}
+.hive-table-v3.hive-table3 tbody tr td:first-child {
+    padding: 4px 0 3px 15px;
+    text-align: left;
+}
+.hive-table-v3.hive-table3 tbody tr td {
+    padding: 3px 15px;
+    text-align: center;
+}
+.hive-table3 tbody tr td.pt {
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #444;
+}
+/* End Hive 2 Table */
+
 .hive-blog-list ul li {
     list-style: outside none none;
 }
@@ -10275,18 +10354,28 @@ ul.spb-social2{
 }
 .signup-cont{
 	width: 100%;
-  margin:auto;
+  margin: 0 auto;
   margin-bottom: 30px;
   padding-top: 30px;
 	max-width:510px;
     min-height:610px;
-    height:800px;
+    height:1000px;
   position:relative;
 	box-shadow:0 12px 15px 0 rgba(0,0,0,.19),0 17px 50px 0 rgba(0,0,0,.19);
 }
 .signup-cont h1 {
     font-family: 'Open Sans', sans-serif;
     color: #01783c;
+}
+.form-validation {
+    position: absolute;
+    left:5%;
+    top: 39%;
+    padding: 20px;
+    background: #f48686;
+    border: 1px solid #740101;
+    min-height: 100px;
+    width: 400px;
 }
 .login-html{
 	width:100%;
@@ -11403,6 +11492,7 @@ form.league-form .btn-proceed {
   .project img {
     position: absolute;
     opacity: 0.9;
+    width: 100%;
   }
   .project p {
     position: absolute;
@@ -11741,6 +11831,9 @@ form.league-form .btn-proceed {
     padding-top: 10px;
     color: #394993;
   }
+  .hive-sponsor img {
+      margin: 0 auto;
+  }
   .topy-banner {
       height:150px;
       background: #000;
@@ -11849,3 +11942,99 @@ form.league-form .btn-proceed {
         }
   }
   
+
+  /* Lend */
+  #wrap{
+    background-image: -ms-linear-gradient(top, #FFFFFF 0%, #D3D8E8 100%);
+    /* Mozilla Firefox */ 
+    background-image: -moz-linear-gradient(top, #FFFFFF 0%, #D3D8E8 100%);
+    /* Opera */ 
+    background-image: -o-linear-gradient(top, #FFFFFF 0%, #D3D8E8 100%);
+    /* Webkit (Safari/Chrome 10) */ 
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #FFFFFF), color-stop(1, #D3D8E8));
+    /* Webkit (Chrome 11+) */ 
+    background-image: -webkit-linear-gradient(top, #FFFFFF 0%, #D3D8E8 100%);
+    /* W3C Markup, IE10 Release Preview */ 
+    background-image: linear-gradient(to bottom, #FFFFFF 0%, #D3D8E8 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 20px;
+    margin: 0 auto;
+    width: 500px;
+    border-radius: 10px;
+    }
+    legend{
+        color:#141823;
+        font-size:25px;
+        font-weight:bold;
+    }
+    #wrap .input-lg {
+        height: 46px;
+        padding: 10px 16px;
+        font-size: 18px;
+        line-height: 1.3333333;
+        border-radius: 6px;
+      }
+    #wrap input[type="text"], #wrap input[type="password"] {
+        border-radius: 25px;
+        margin: 10px 0px;
+    }
+    #wrap p {
+        margin: 20px 0px;
+        font-weight: bold;
+    }
+    #wrap a{
+        color: #394993;
+    }
+    #wrap a:hover {
+        color: #3e3e3e;
+    }
+    .signup-btn {
+      background: #79bc64;
+      background-image: -webkit-linear-gradient(top, #79bc64, #578843);
+      background-image: -moz-linear-gradient(top, #79bc64, #578843);
+      background-image: -ms-linear-gradient(top, #79bc64, #578843);
+      background-image: -o-linear-gradient(top, #79bc64, #578843);
+      background-image: linear-gradient(to bottom, #79bc64, #578843);
+      -webkit-border-radius: 4;
+      -moz-border-radius: 4;
+      border-radius: 4px;
+      text-shadow: 0px 1px 0px #898a88;
+      -webkit-box-shadow: 0px 0px 0px #a4e388;
+      -moz-box-shadow: 0px 0px 0px #a4e388;
+      box-shadow: 0px 0px 0px #a4e388;
+      font-family: Arial;
+      color: #ffffff;
+      font-size: 20px;
+      padding: 10px 20px 10px 20px;
+      border: solid #3b6e22  1px;
+      text-decoration: none;
+    }
+    
+    .signup-btn:hover {
+      background: #79bc64;
+      background-image: -webkit-linear-gradient(top, #79bc64, #5e7056);
+      background-image: -moz-linear-gradient(top, #79bc64, #5e7056);
+      background-image: -ms-linear-gradient(top, #79bc64, #5e7056);
+      background-image: -o-linear-gradient(top, #79bc64, #5e7056);
+      background-image: linear-gradient(to bottom, #79bc64, #5e7056);
+      text-decoration: none;
+    }
+    .navbar-default .navbar-brand{
+            color:#fff;
+            font-size:30px;
+            font-weight:bold;
+        }
+    .form .form-control { margin-bottom: 10px; }
+    @media (min-width:768px) {
+        #home{
+            margin-top:50px;
+        }
+        #home .slogan{
+            color: #0e385f;
+            line-height: 29px;
+            font-weight:bold;
+        }
+    
+        .modal-dialog {width:600px;}
+        .thumbnail {margin-bottom:6px;}

@@ -93,47 +93,33 @@
             <!--// Main Content //-->
             <div class="hive-content news-bg">
               <div class="container">
-                <div class="signup-cont">
-                  <div class="login-html">
-                      <h1 style="text-transform: uppercase">Sign up to Join</h1>
-                      <div class="login-form">
-                        <div class="">
-                            <div class="group">
-                                <label for="user" class="label">First Name</label>
-                                <input id="user" type="text" class="input">
-                            </div>
-                            <div class="group">
-                                <label for="user" class="label">Last Name</label>
-                                <input id="user" type="text" class="input">
-                            </div>
-                          <div class="group">
-                              <label for="user" class="label">Email</label>
-                              <input id="user" type="text" class="input">
-                          </div>
-                          <div class="group">
-                              <label for="pass" class="label">Password</label>
-                              <input id="pass" type="password" class="input" data-type="password">
-                          </div>
-                          <div class="group">
-                              <label for="pass" class="label">Confirm Password</label>
-                              <input id="pass" type="password" class="input" data-type="password">
-                          </div>
-                          <div class="group">
-                            <label for="phone" class="label">Phone</label>
-                            <input id="phone" type="text" class="input" data-type="phone">
+                <div class="container" id="wrap">
+                  <div class="row">
+                      <div class="col-md-12">
+                          <form action="r" method="post" accept-charset="utf-8" class="form" role="form">   <legend>Sign Up</legend>
+                                  <h4>It's free and always will be.</h4>
+                                  <div class="row">
+                                      <div class="col-xs-6 col-md-6">
+                                          <input type="text" name="firstname" value="" class="form-control input-lg" placeholder="First Name"  />                        </div>
+                                      <div class="col-xs-6 col-md-6">
+                                          <input type="text" name="lastname" value="" class="form-control input-lg" placeholder="Last Name"  />                        </div>
+                                  </div>
+                                  <input type="text" name="email" value="" class="form-control input-lg" placeholder="Your Email"  />
+                                  <input type="text" name="text" value="" class="form-control input-lg" placeholder="Your Phone number"  />
+                                  <input type="text" name="text" value="" class="form-control input-lg" placeholder="Your City"  />
+                                  <input type="password" name="password" value="" class="form-control input-lg" placeholder="Password"  />
+                                  <input type="password" name="confirm_password" value="" class="form-control input-lg" placeholder="Confirm Password"  />                 
+                                   
+                            <span class="help-block">By clicking Create my account, you agree to our Terms of Use.</span>
+                                  <button class="btn btn-lg btn-primary btn-block signup-btn" type="submit">
+                                      Create my account</button>
+                              <p class="text-center">
+                                <a href="login.html">Already Registered? Login here.</a>
+                              </p>
+                          </form>          
                         </div>
-                        <div class="group">
-                          <label for="city" class="label">City</label>
-                          <input id="city" type="text" class="input" data-type="city">
-                      </div>
-                          <div class="group">
-                              <input type="submit" class="button" value="Join Now">
-                          </div>
-                          <p class="text-center"><a href="login.html">Already Registered? Login here.</a></p>
-                          <div class="hr"></div>
-                      </div>
-                      </div>
-                  </div>
+              </div>            
+              </div>
               </div>
               </div>
             </div>
