@@ -11828,11 +11828,10 @@ form.league-form .btn-proceed {
   .hive-sponsor h3 {
     text-transform: uppercase;
     font-size: 2em;
-    padding-top: 10px;
     color: #394993;
   }
   .hive-sponsor img {
-      margin: 0 auto;
+      margin: 15px auto;
   }
   .topy-banner {
       height:150px;
@@ -11963,7 +11962,7 @@ form.league-form .btn-proceed {
     width: 500px;
     border-radius: 10px;
     }
-    legend{
+    legend.leg{
         color:#141823;
         font-size:25px;
         font-weight:bold;
@@ -11975,7 +11974,7 @@ form.league-form .btn-proceed {
         line-height: 1.3333333;
         border-radius: 6px;
       }
-    #wrap input[type="text"], #wrap input[type="password"] {
+    #wrap input[type="text"], #wrap input[type="password"], #wrap select {
         border-radius: 25px;
         margin: 10px 0px;
     }
